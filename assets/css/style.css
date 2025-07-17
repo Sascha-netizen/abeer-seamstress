@@ -1,14 +1,27 @@
-/* Google fonts import link (Playfair Display for headings and Quicksand for text) */
+/* Google fonts import link (Quicksand for headings and Playfair Display for text) */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
 
 
-h1 {
-    color: darkblue;
-    font-family: "Playfair Display", serif;
+/* CSS Variables */
+:root {
+    --primary-font: "Quicksand", serif;
+    --secondary-font: "Playfair Display", sans-serif;
+    --primary-color: #f4f0ec; /* light beige */
+    --secondary-color: #463c31;/* earthy brown-grey */
+    --highlight-color: #c46d4d; /* burned orange */
+    --highlight-color-light: #f3d9cd; /* soft terracotta */
 }
 
-p {
-    color: navy;
-    font-family: "Quicksand", sans-serif;
+/* Global styles */
+body {
+    font-family: var(--primary-font);
 }
+
+h1,
+h2,
+h3 {
+   font-family: var(--secondary-font); 
+   color: var(--secondary-color);
+}
+
