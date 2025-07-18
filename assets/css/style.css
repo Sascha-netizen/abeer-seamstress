@@ -33,7 +33,7 @@ h3 {
     padding-bottom: 10px;
 }
 
-/* Hero section */
+/* Hero section ('home') */
 #hero {
 position: relative;
 background: url(../images/Hero_1_Pexels.webp) no-repeat center center/cover;
@@ -42,6 +42,7 @@ height: 450px;
 min-height: 450px;
 border: 3px solid var(--highlight-color);
 border-radius: 5px;
+margin-bottom: 1.5rem;
 }
 
 .hero-overlay {
@@ -65,7 +66,31 @@ border-radius: 5px;
   margin: 0;
 }
 
+/* Services section ('home')*/
+#services-text {
+    border: 3px solid var(--highlight-color);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    background-color: var(--highlight-color-light);
+}
 
+#services-text li {
+    list-style: none;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+#services-text li i {
+    margin-right: 0.75rem;
+}
+
+/* Prices section ('home') */
+#prices {
+    border: 3px solid var(--highlight-color);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    background-color: var(--highlight-color-light);
+}
 
 /* Grid visualisation for testing */
 
