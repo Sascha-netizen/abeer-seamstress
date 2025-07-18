@@ -25,3 +25,13 @@ h3 {
    color: var(--secondary-color);
 }
 
+/* Grid visualisation for testing */
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgrey;
+}
