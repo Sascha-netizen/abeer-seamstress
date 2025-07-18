@@ -72,6 +72,7 @@ margin-bottom: 1.5rem;
     border-radius: 5px;
     margin-bottom: 1.5rem;
     background-color: var(--highlight-color-light);
+    font-family: var(--secondary-font);
 }
 
 #services-text li {
@@ -90,7 +91,24 @@ margin-bottom: 1.5rem;
     border-radius: 5px;
     margin-bottom: 1.5rem;
     background-color: var(--highlight-color-light);
+    font-family: var(--secondary-font);
+    padding-bottom: 6px;
 }
+
+#prices .card-body {
+    background-color: var(--primary-color);
+}
+
+#prices .card-footer:hover {
+    background-color: var(--highlight-color);
+}
+
+.card-img-top {
+  height: 275px; 
+  object-fit: cover; 
+  width: 100%;
+}
+
 
 /* Grid visualisation for testing */
 
@@ -103,3 +121,12 @@ margin-bottom: 1.5rem;
     border: 2px solid white;
     background-color: lightgrey;
 }  */
+
+
+/* Responsive h1 in hero section for extra-small screens */
+
+@media (max-width: 576px) {
+  .hero-overlay h1 {
+    font-size: 1.5rem;
+  }
+}   
