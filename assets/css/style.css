@@ -16,6 +16,7 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    background-color: var(--primary-color);
 }
 
 h1,
@@ -25,8 +26,14 @@ h3 {
    color: var(--secondary-color);
 }
 
+/* Navbar */
+#navbar {
+    background-color: var(--secondary-color);
+}
+
 /* Grid visualisation for testing */
-.container,
+
+/* .container, 
 .row {
     border: 2px solid black;
 }
@@ -34,4 +41,4 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgrey;
-}
+}  */

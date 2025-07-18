@@ -23,7 +23,34 @@
   <!-- The classes on the body element push the footer down -->
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Abeer ElAshry</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Header with hero image -->
     <header class="container">
@@ -56,7 +83,7 @@
       </section>
 
       <!-- Third section: testimonials-->
-       <section class="container">
+      <section class="container">
         <div class="row">
           <div class="col-12"><h2>Testimonials</h2></div>
           <div class="col-12 col-md-6 col-xl-3">Testimonial</div>
@@ -65,24 +92,22 @@
           <div class="col-12 col-md-6 col-xl-3">Testimonial</div>
         </div>
       </section>
-    
     </main>
 
     <!-- Footer: telephone number and social links -->
-     <!-- Class mt-auto added to push footer down -->
-     <footer class="container mt-auto">
-        <div class="row">
-            <div class="col-12">
-                <h2>Contact me:</h2>
-                <p>Telephone no</p>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">Facebook</div>
-            <div class="col-12 col-md-6 col-xl-3">Twitter</div>
-            <div class="col-12 col-md-6 col-xl-3">Youtube</div>
-            <div class="col-12 col-md-6 col-xl-3">Instagram</div>
+    <!-- Class mt-auto added to push footer down -->
+    <footer class="container mt-auto">
+      <div class="row">
+        <div class="col-12">
+          <h2>Contact me:</h2>
+          <p>Telephone no</p>
         </div>
-     </footer>
-
+        <div class="col-12 col-md-6 col-xl-3">Facebook</div>
+        <div class="col-12 col-md-6 col-xl-3">Twitter</div>
+        <div class="col-12 col-md-6 col-xl-3">Youtube</div>
+        <div class="col-12 col-md-6 col-xl-3">Instagram</div>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS link -->
     <script
