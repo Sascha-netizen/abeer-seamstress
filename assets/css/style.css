@@ -133,7 +133,18 @@ margin-bottom: 1.5rem;
     min-height: 5.5rem;
 }
 
+/* Footer */
+#footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem 0;
+}
 
+/* Exception to the global styles rule (only for footers) */
+#footer h2,
+#footer p {
+    color: var(--primary-color);
+}
 
 /* Grid visualisation for testing */
 
