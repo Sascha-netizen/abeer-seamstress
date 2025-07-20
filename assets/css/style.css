@@ -110,7 +110,19 @@ margin-bottom: 1.5rem;
   width: 100%;
 }
 
-/* Adjusting footers in testimonials section */
+#prices .card,
+#testimonials .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#prices .card:hover,
+#testimonials .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Adjusting card footers in testimonials section */
 #testimonials .card {
     display: flex;
     flex-direction: column;
@@ -120,6 +132,8 @@ margin-bottom: 1.5rem;
     margin-top: auto;
     min-height: 5.5rem;
 }
+
+
 
 /* Grid visualisation for testing */
 
