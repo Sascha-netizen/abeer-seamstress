@@ -85,8 +85,8 @@ margin-bottom: 1.5rem;
     margin-right: 0.75rem;
 }
 
-/* Prices section ('home') */
-#prices {
+/* Prices and testimonials sections ('home') */
+#prices, #testimonials {
     border: 3px solid var(--highlight-color);
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -95,7 +95,8 @@ margin-bottom: 1.5rem;
     padding-bottom: 6px;
 }
 
-#prices .card-body {
+#prices .card-body,
+#testimonials .card-body {
     background-color: var(--primary-color);
 }
 
@@ -109,6 +110,16 @@ margin-bottom: 1.5rem;
   width: 100%;
 }
 
+/* Adjusting footers in testimonials section */
+#testimonials .card {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials .card-footer {
+    margin-top: auto;
+    min-height: 5.5rem;
+}
 
 /* Grid visualisation for testing */
 
