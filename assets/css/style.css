@@ -121,7 +121,6 @@ margin-bottom: 1.5rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-
 /* Adjusting card footers in testimonials section */
 #testimonials .card {
     display: flex;
@@ -146,6 +145,22 @@ margin-bottom: 1.5rem;
     color: var(--primary-color);
 }
 
+/* About-me section (top) */
+
+#about-me {
+    border: 3px solid var(--highlight-color);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    background-color: var(--highlight-color-light);
+    font-family: var(--secondary-font);
+    padding: 10px;
+}
+
+h1 i {
+    margin-right: 10px;
+}
+
+
 /* Bootstrap carousel on about-me page */
 .carousel-inner img {
   width: 100%;
@@ -153,6 +168,8 @@ margin-bottom: 1.5rem;
   object-fit: cover;
   display: block;
 }
+
+
 
 /* Grid visualisation for testing */
 
