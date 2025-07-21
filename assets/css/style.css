@@ -156,8 +156,9 @@ margin-bottom: 1.5rem;
     padding: 10px;
 }
 
-h1 i {
-    margin-right: 10px;
+h1 i,
+h2 i {
+    margin-right: 7px;
 }
 
 
