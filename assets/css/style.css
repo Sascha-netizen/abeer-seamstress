@@ -89,7 +89,9 @@ margin-bottom: 1.5rem;
 }
 
 /* Prices and testimonials sections ('home') */
-#prices, #testimonials {
+#prices, 
+#testimonials,
+#contact {
     border: 3px solid var(--highlight-color);
     border-radius: 5px;
     margin-bottom: 1.5rem;

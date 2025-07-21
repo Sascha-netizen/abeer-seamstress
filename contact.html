@@ -25,7 +25,9 @@
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="fa-solid fa-scissors"></i>Abeer ElAshry</a>
+        <a class="navbar-brand" href="index.html"
+          ><i class="fa-solid fa-scissors"></i>Abeer ElAshry</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -60,7 +62,8 @@
       <div class="row">
         <div class="col-12">
           <h1>
-            <i class="fa-solid fa-scissors"></i>Placeholder: headline contact form
+            <i class="fa-solid fa-scissors"></i>Placeholder: headline contact
+            form
           </h1>
         </div>
       </div>
@@ -68,7 +71,53 @@
 
     <!-- Main element to hold key content of the page. It is not part of the grid structure. -->
     <main>
-      <!-- Contact form (Bootstrap) -->
+      <!-- Contact form (Bootstrap adapted from the Mei-Wong CV project); data entry will lead to Code Institute Form Dump -->
+
+      <section id="contact" class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center my-4">
+            <h2 class="display-5">Contact</h2>
+            <p class="mt-4">
+              Please feel free to get in touch if you would like to enquire
+              about prices, products, or possible collaborations. I'm always
+              ready to think outside the box and happy to help plan events where
+              I can showcase my craft. If other Islamicate artisans are
+              interested in exploring opportunities for collaboration, they
+              shouldn't hesitate to reach out.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-10 col-lg-8 mb-4">
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form" class="row g-3 sharp-corners">
+              <div class="col-lg-4">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="full-name" name="full-name">
+              </div>
+
+              <div class="col-lg-4">
+                <label for="phonenumber" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phonenumber" name="phonenumber">
+              </div>
+
+              <div class="col-lg-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary custom-button">
+                  Send!
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer: telephone number and social links -->
