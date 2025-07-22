@@ -68,7 +68,8 @@ margin-bottom: 1.5rem;
 
 /* Services section ('home')*/
 #services-text,
-#biography {
+#biography,
+#workshop {
     border: 3px solid var(--highlight-color);
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -91,7 +92,8 @@ margin-bottom: 1.5rem;
 /* Prices and testimonials sections ('home') */
 #prices, 
 #testimonials,
-#contact {
+#contact,
+#workshop {
     border: 3px solid var(--highlight-color);
     border-radius: 5px;
     margin-bottom: 1.5rem;
@@ -101,7 +103,8 @@ margin-bottom: 1.5rem;
 }
 
 #prices .card-body,
-#testimonials .card-body {
+#testimonials .card-body,
+#workshop .card-body {
     background-color: var(--primary-color);
 }
 
@@ -116,12 +119,14 @@ margin-bottom: 1.5rem;
 }
 
 #prices .card,
-#testimonials .card {
+#testimonials .card,
+#workshop .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #prices .card:hover,
-#testimonials .card:hover {
+#testimonials .card:hover,
+#workshop .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
