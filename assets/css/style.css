@@ -36,7 +36,7 @@ h3 {
 /* Hero section ('home') */
 #hero {
 position: relative;
-background: url(../images/hero_1_pexels.webp) no-repeat center center/cover;
+background: url(../images/hero_1.webp) no-repeat center center/cover;
 width: 100%;
 min-height: 50vh;
 height: auto;
