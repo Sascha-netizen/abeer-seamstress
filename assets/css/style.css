@@ -180,21 +180,6 @@ h2 i {
   display: block;
 }
 
-
-
-/* Grid visualisation for testing */
-
-/* .container, 
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-}  */
-
-
 /* Responsive h1 in hero section for extra-small screens */
 
 @media (max-width: 576px) {
