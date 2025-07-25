@@ -187,6 +187,26 @@ h2 i {
   display: block;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; 
+  width: 3rem;
+  height: 3rem
+}
+
+.carousel-control-prev-icon::after {
+  content: '‹'; 
+  font-size: 3rem;
+  color: black; 
+}
+
+.carousel-control-next-icon::after {
+  content: '›'; 
+  font-size: 3rem;
+  color: black; 
+}
+
+
 /* Responsive h1 in hero section for extra-small screens */
 
 @media (max-width: 576px) {
