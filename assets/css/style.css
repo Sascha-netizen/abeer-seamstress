@@ -190,20 +190,20 @@ h2 i {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none; 
-  width: 3rem;
-  height: 3rem
+  width: 5rem;
+  height: 5rem;
 }
 
 .carousel-control-prev-icon::after {
   content: '‹'; 
-  font-size: 3rem;
-  color: black; 
+  font-size: 5rem;
+  color: crimson; 
 }
 
 .carousel-control-next-icon::after {
   content: '›'; 
-  font-size: 3rem;
-  color: black; 
+  font-size: 5rem;
+  color: crimson; 
 }
 
 
